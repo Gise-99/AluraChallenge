@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/vector.ico">
+  <title>Cifrador de texto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo"> Código secreto</h1>
+  </header>
+  <main class="main">
+    <section class="box">
+      <form>
+        <h2 class="titulo-cifrador">Cifrador</h2>
+        <label for="input-text" class="texto1">
+          -Sólo ingresar minúsculas <br>
+          -No se permite acento <br>
+          -No se permiten números <br>
+        </label>
+        <input class="text-input" type="text" name="texto" id="datos" onkeypress="return validar(event)"
+          placeholder="Ingrese el texto aquí"> <br>
+        <button class=" btn btn1 " type="button" value="cifrar" id="btn-cifrado" onclick="cifrar()"> Cifrar</button>
+        <button class=" btn btn2" type="button" value="descifrar" id="btn-descifrado" onclick="descifrar()"> Descifrar</button>
+      </form>
+    </section>
+    <section class="box box2">
+      <h2>Descifrador</h2>
+      <img src="img/3.jpg" class="nene">
+      <input class="text-input" type="text" id="resultado" readonly placeholder="Ingrese el mensaje que desea desencriptar">
+      <h5 class="texto-chico">Copie el texto y peguelo en el cifrador</h5> 
+      <button type="button" class="btn btn3" value="copiar" id="btn-copy" onclick="copiar()">Copiar</button>
+    </section>
+  </main>
+  <footer>
+    <div id>
+      <h3>Hecho por Gisela Ramírez </h3>
+      <a href=""></a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
