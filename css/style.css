@@ -24,12 +24,12 @@ body {
   align-items: center;
 }
 /* Cajas*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 650px) {
   .box {
   width: 40%;
   height: auto;
   padding: 20px;
-  margin: 20px 20px 30px 20px;
+  margin: 25px 20px 30px 20px;
   border-radius: 15px;
   background-color: rgb(198, 192, 226);
   box-shadow: 2px 3px 2px 1px rgba(99, 16, 138, 0.822);
@@ -38,7 +38,7 @@ body {
 }
 @media screen and (max-width: 1080px) {
   .box{
-  width: 70%;
+  width: 80%;
   height: 65%;
   padding: 10px;
   padding: 20px;
@@ -54,7 +54,7 @@ body {
   padding: 20px;
   font-size: 40px;
   text-align: center;
-  color: rgb(51, 49, 49);
+  color: black;
 }
 .texto1{
   color:#131113;
@@ -104,7 +104,7 @@ body {
   
 }
 footer{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.836);
   height:80px;
   text-align: center;
   align-items: center;
@@ -135,7 +135,8 @@ h2, h5{
   margin-top: 8px;
 }
 h3{
+  font-size: 16px;
   color: white;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
